@@ -1,6 +1,6 @@
 {
   "name": "nexpress-router",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "An express style of method routing for Next.JS",
   "keywords": [
     "javascript",
@@ -26,7 +26,6 @@
     "lint": "eslint src -c .eslintrc --ext js",
     "test": "c8 mocha",
     "build": "bundt && cp src/index.d.ts dist",
-    "prepublishOnly": "npm run test && npm run build",
     "coverage": "c8 report --reporter=text-lcov > coverage.lcov"
   },
   "homepage": "https://github.com/cdking007/nexpress-router#readme",
